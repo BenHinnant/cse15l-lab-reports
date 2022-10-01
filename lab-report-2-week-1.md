@@ -11,8 +11,9 @@
 ![Image](https://user-images.githubusercontent.com/55713184/193388757-e73ce25a-0b4d-4485-93eb-db7451306aa7.png)
 
 # Trying Some Commands
-
-![Image](remotely connecting.png)
+* Ran several commands on the client and server to understand their functionality
+* I had a Windows computer so Linux commands like ls and cp failed to work
+![image](https://user-images.githubusercontent.com/55713184/193391095-adf8c448-bdb9-45f7-b625-0af19aba82d3.png)
 
 # Moving Files with scp
 
