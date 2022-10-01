@@ -25,7 +25,16 @@
 ![image](https://user-images.githubusercontent.com/55713184/193392657-86605858-0bcb-4e6a-b258-bb3a989f1127.png)
 
 # Setting an SSH Key
+* Create public and private ssh keys using ssh-keygen
+* Then use ssh mkdir and scp to add the public key to a .ssh directory on the server
+* You can now access the server without entering the password
 
-![Image](remotely connecting.png)
+![image](https://user-images.githubusercontent.com/55713184/193392763-93fe6372-a297-41d0-9ca2-090aff86e35d.png)
 
 # Optimizing Remote Running
+* I tried running “scp WhereAmI.java cs15lfa22li@ieng6.ucsd.edu:~/; ssh cs15lfa22li@ieng6.ucsd.edu; javac WhereAmI.java; java WhereAmI” but the terminal outputs: “WhereAmI: No such file or directory” although WhereAmI.java exists in my client home folder and remote home folder
+* I tried various other combinations of quotations and colons with roughly the same output
+* The only difference was a quotation mark at the end of the file name: <WhereAmI.java”: No such file or directory>
+
+![image](https://user-images.githubusercontent.com/55713184/193393010-8d79c314-9691-4a75-8a72-6010f03d2d9d.png)
+![image](https://user-images.githubusercontent.com/55713184/193392986-b507f1d0-943c-429b-9489-474a45e25dea.png)
