@@ -6,7 +6,7 @@
 # Remotely Connecting
 * Reset password on course-specific account during lab, but the password failed to work; the terminal kept prompting me for the password again until it closed the connection with the server
 * Tried resetting my password the next day and it worked after 15 mins
-![Image](https://lh3.googleusercontent.com/keep-bbsk/AP6BvTROMq2ID0NcALn5im1LFB8kafrgICh8zErSkE4NTCYniW6gKiiS7gQiDLIYYHE3ygHueg6wAwz6BqcRRkc-QZePYn_XvuTnxtAGTdafsTBZngXM=s1600)
+![Image](https://lh3.googleusercontent.com/keep-bbsk/AP6BvTQ3Pqd3BKAQbpgvl12kleUehbU4UgXKbjd6zwxVMRST0XrNLVmHj3tdiM_Ghc6hhb9JEMQ_LXaekZzVMj0EMNly9axVTBX_NLiAUGKqnvzmYHyP=s1600)
 
 # Trying Some Commands
 
