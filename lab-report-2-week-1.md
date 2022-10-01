@@ -6,12 +6,18 @@
 # Remotely Connecting
 * Reset password on course-specific account during lab, but the password failed to work; the terminal kept prompting me for the password again until it closed the connection with the server
 * Tried resetting my password the next day and it worked after 15 mins
-![Image](https://lh3.googleusercontent.com/keep-bbsk/AP6BvTQ3Pqd3BKAQbpgvl12kleUehbU4UgXKbjd6zwxVMRST0XrNLVmHj3tdiM_Ghc6hhb9JEMQ_LXaekZzVMj0EMNly9axVTBX_NLiAUGKqnvzmYHyP=s1600)
+![image](https://user-images.githubusercontent.com/55713184/193388757-e73ce25a-0b4d-4485-93eb-db7451306aa7.png)
 
 # Trying Some Commands
 
+![Image](remotely connecting.png)
+
 # Moving Files with scp
 
+![Image](remotely connecting.png)
+
 # Setting an SSH Key
+
+![Image](remotely connecting.png)
 
 # Optimizing Remote Running
