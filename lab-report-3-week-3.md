@@ -1,8 +1,10 @@
 # Part 1
 
+
+
 # Part 2
 
-## Bug 1: reverseInPlace
+## Bug 1: reverseInPlace in ArrayExamples.java
 
 * The failure-inducing input:
 
@@ -34,7 +36,7 @@ The bug occurs because the function overwrites the index value while replacing i
 
 * The symptom:
 
-![image](https://user-images.githubusercontent.com/55713184/195968961-3c796fef-6ad5-4acd-a0de-cee0294b3df9.png)
+![image](https://user-images.githubusercontent.com/55713184/195969564-b6acb358-5e84-46aa-a347-6a64c5f7e90c.png)
 
 * The bug:
 
@@ -44,4 +46,6 @@ The bug occurs because the function overwrites the index value while replacing i
 
 ![image](https://user-images.githubusercontent.com/55713184/195968995-2d1971a4-408b-426a-ac60-b22221998d98.png)
 
+* Connection between the symptom and the bug:
 
+The bug occurs because the function always adds the string to the first index of the list. When new elements are added to the list, older elements are pushed back by an index, so the list will be in reverse order from the order in which elements are added. As shown, input lists with one element are unaffected by the bug because there are no other elements to push back an index.
