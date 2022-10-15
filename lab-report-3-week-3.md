@@ -2,8 +2,6 @@
 
 * Code for SearchEngine.java:
 
-'''
-
     import java.io.IOException;
     import java.net.URI;
     import java.util.ArrayList;
@@ -53,19 +51,17 @@
         }
     }
 
-'''
-  
 * Root directory:
   
 ![image](https://user-images.githubusercontent.com/55713184/195970108-4c3e7e4a-4d90-4f8f-bc9d-7d2aa62370e8.png)
 
 * Add:
 
-
+![image](https://user-images.githubusercontent.com/55713184/195970191-7c37e213-a44a-4d6d-bd80-3fa310f7ae62.png)
 
 * Query:
 
-
+![image](https://user-images.githubusercontent.com/55713184/195970206-636f82f6-e5f5-4322-9d9f-c9c300a3ee0c.png)
 
 # Part 2
 
