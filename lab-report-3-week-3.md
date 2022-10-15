@@ -22,6 +22,10 @@
 
 ![image](reverseInPlacefix1.png)
 
+* Connection between the symptom and the bug:
+
+The bug occurs because the function overwrites the index value while replacing it with an index value from the opposite end of the array. Since the index value is overriden without being stored elsewhere first, the function will return a palindromic array that is incorrect. However as shown in my tests, input arrays with lengths of 1 are unaffected since their sole index will not be overriden.
+
 ## Bug 2: filter in ListExamples.java
 
 * The failure-inducing input:
