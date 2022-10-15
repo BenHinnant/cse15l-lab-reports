@@ -7,7 +7,6 @@
 * The failure-inducing input:
 
 ![image](reverseInPlaceinp1.png)
-![image](reverseInPlaceinp2.png)
 
 * The symptom:
 
@@ -23,8 +22,22 @@
 
 ![image](reverseInPlacefix1.png)
 
-## Bug 2: reverseInPlace
+## Bug 2: filter in ListExamples.java
+
 * The failure-inducing input:
+
+![image](https://user-images.githubusercontent.com/55713184/195968948-d449b860-04ec-4450-8646-b57c115b4415.png)
+
 * The symptom:
+
+![image](https://user-images.githubusercontent.com/55713184/195968961-3c796fef-6ad5-4acd-a0de-cee0294b3df9.png)
+
 * The bug:
+
+![image](https://user-images.githubusercontent.com/55713184/195968899-1b1f2ebd-2762-4a8e-a26e-1bf0b22e56d3.png)
+
 * The code after the bug was fixed:
+
+![image](https://user-images.githubusercontent.com/55713184/195968995-2d1971a4-408b-426a-ac60-b22221998d98.png)
+
+
