@@ -77,7 +77,11 @@ class SearchEngine {
 
 ![image](https://user-images.githubusercontent.com/55713184/198755240-4dd83831-55cd-4536-951e-b1ff08eb20d1.png)
 ![image](https://user-images.githubusercontent.com/55713184/198755269-737b662a-dc8b-45e7-9169-572e079a7ee9.png)
-![image](https://user-images.githubusercontent.com/55713184/198755342-bd57aec1-81ea-4b8b-b078-33271cd0023d.png)
+![image](https://user-images.githubusercontent.com/55713184/198755397-4609a94b-b703-40b9-a85f-a542d3efd441.png)
+
+* The testReverseInPlace test passed.
+* The testReverseInPlace2 test failed because the test expected <3> for element [1] in the list, but reverseInPlace returned an array with <2> as that element instead.
+* The testReverseInPlace3 test failed because the test expected <3> for element [2] in the list, but reverseInPlace returned an array with <1> as that element instead.
 
 * The bug:
 
