@@ -109,6 +109,10 @@ The bug occurs because the function overwrites the index value while replacing i
 
 ![image](https://user-images.githubusercontent.com/55713184/195969564-b6acb358-5e84-46aa-a347-6a64c5f7e90c.png)
 
+* The testFilter1 test failed because the list the test expected is a flipped version of the list the filter function returned.
+* The testFilter2 test failed because the list the test expected is a flipped version of the list the filter function returned.
+* The testFilter3 passed.
+
 * The bug:
 
 ![image](https://user-images.githubusercontent.com/55713184/195968899-1b1f2ebd-2762-4a8e-a26e-1bf0b22e56d3.png)
