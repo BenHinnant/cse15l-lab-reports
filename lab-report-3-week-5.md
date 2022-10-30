@@ -20,4 +20,13 @@
 
 * This command prints all lines not containing the string "recommendation" within the chapter-1.txt file. By excluding lines with "recommendation" using the /v switch, the user might be able to find background information that is not related to the committee's recommendations within the file.
 
+## /i Switch
+
+### Example 1: find /i "recommendation" "technical\government\Alcohol_Problems\*.txt" 
+
+![image](https://user-images.githubusercontent.com/55713184/198897842-c545f3ec-c290-4616-a847-10923d50182e.png)
+![image](https://user-images.githubusercontent.com/55713184/198897864-583e094e-9b83-46af-bfe0-30e50c6b7352.png)
+
+* This command prints all lines containing the string "recommendation" regardless of capitalization within all text files contained in the Alcohol_Problems directory. This might be used as a rough estimate to determine which text file has the most recommendations.
+
 
