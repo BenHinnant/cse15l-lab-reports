@@ -40,6 +40,26 @@
 ![image](https://user-images.githubusercontent.com/55713184/198899199-9a6fe984-d5ea-4b32-82dc-10138ef67eed.png)
 ![image](https://user-images.githubusercontent.com/55713184/198899213-62804c39-f596-46f3-95c2-b554deda90fe.png)
 
-* This command prints all lines containing the string "situation" regardless of capitalization within all text files contained in the 911report directory. This allows the user to find lines related to the situation during 9/11 as well as the White House Situation Room across multiple files. Without using the backslash to escape the asterisk, the command will fail because the asterisk will be interpreted as a shell 
+* This command prints all lines containing the string "situation" regardless of capitalization within all text files contained in the 911report directory. This allows the user to find lines related to the situation during 9/11 as well as the White House Situation Room across multiple files. 
+
+## /c Switch
+
+### Example 1: find /c "Clinton" "technical/911report/\*.txt"   
+
+![image](https://user-images.githubusercontent.com/55713184/198906731-e5b89f80-cbca-4d01-82d4-6a3b42d60aae.png)
+
+* This command prints the number of times the string "Clinton" appeared in each .txt file of the 911report directory. This allows the user to easily determine which files often mention the president.
+
+### Example 2: find /c "recommendation" "technical/government/alcohol_problems/\*.txt" 
+
+![image](https://user-images.githubusercontent.com/55713184/198906965-ed9cbd52-503b-440a-a88b-50340b7a05ee.png)
+
+* This command prints the number of times the string "recommendation" appeared in each .txt file of the Alcohol_Problems directory. This allows the user to easily determine which files have the most recommendations.
+
+
+### Example 3: 
+
+![image](https://user-images.githubusercontent.com/55713184/198907149-fe8cf81c-2cbd-4239-a4a8-1fcd2062ea91.png)
+
 
 
