@@ -50,16 +50,18 @@
 
 * This command prints the number of times the string "Clinton" appeared in each .txt file of the 911report directory. This allows the user to easily determine which files often mention the president.
 
-### Example 2: find /c "recommendation" "technical/government/alcohol_problems/\*.txt" 
+### Example 2: find /c "recommendation" "technical/government/alcohol_problems/\*.txt"
 
-![image](https://user-images.githubusercontent.com/55713184/198906965-ed9cbd52-503b-440a-a88b-50340b7a05ee.png)
+![image](https://user-images.githubusercontent.com/55713184/198907250-91b04cf1-31be-452d-b907-5a9a249b9dd2.png)
 
 * This command prints the number of times the string "recommendation" appeared in each .txt file of the Alcohol_Problems directory. This allows the user to easily determine which files have the most recommendations.
 
+### Example 3: find /v /c "meth" "technical/government/Env_Prot_Agen/\*.txt"
 
-### Example 3: 
+![image](https://user-images.githubusercontent.com/55713184/198907201-dd68c42c-18bd-4d91-98ec-dad6dfe1cdb7.png)
 
-![image](https://user-images.githubusercontent.com/55713184/198907149-fe8cf81c-2cbd-4239-a4a8-1fcd2062ea91.png)
+* This command displays a count of the lines that don't contain the String "meth" for all .txt files in the Env_Prot_Agen directory. This is a rough approximation of the number of times the string "meth" was mentioned.
+
 
 
 
