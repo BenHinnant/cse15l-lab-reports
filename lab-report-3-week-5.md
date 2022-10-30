@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/55713184/198896209-5f349a0e-76e9-4735-828f-c6befe63a1aa.png)
 
-* This command prints all lines not containing the string "flight" within the chapter-1.txt file. By excluding lines with "flight" uisng the /v switch, the user might be able to find information related to the situation on the ground during 9/11.
+* This command prints all lines not containing the string "flight" within the chapter-1.txt file. By excluding lines with "flight" using the /v switch, the user might be able to find information related to the situation on the ground during 9/11.
 
 ### Example 2: find /v "Fig" "technical\biomed\1471-213X-1-11.txt" 
 
@@ -60,7 +60,7 @@
 
 ![image](https://user-images.githubusercontent.com/55713184/198907201-dd68c42c-18bd-4d91-98ec-dad6dfe1cdb7.png)
 
-* This command displays a count of the lines that don't contain the String "meth" for all .txt files in the Env_Prot_Agen directory. This is a rough approximation of the number of times the string "meth" was mentioned.
+* This command displays a count of the lines that don't contain the String "meth" for all .txt files in the Env_Prot_Agen directory. This is a rough approximation of the number of times the string "meth" was mentioned for each file.
 
 
 
