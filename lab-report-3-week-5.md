@@ -29,4 +29,17 @@
 
 * This command prints all lines containing the string "recommendation" regardless of capitalization within all text files contained in the Alcohol_Problems directory. This might be used as a rough estimate to determine which text file has the most recommendations.
 
+### Example 2: find /i "situation" "technical/911report/chapter-10.txt"
+
+![image](https://user-images.githubusercontent.com/55713184/198898400-29506b0a-8f6f-46f1-8e7f-f51ed1c7db6b.png)
+
+* This command prints all lines containing the string "situation" regardless of capitalization within chapter-10.txt. This allows the user to find lines related to the situation during 9/11 as well as the White House Situation Room.
+
+### Example 3: find /i "situation" "technical/911report/\*.txt"
+
+![image](https://user-images.githubusercontent.com/55713184/198899199-9a6fe984-d5ea-4b32-82dc-10138ef67eed.png)
+![image](https://user-images.githubusercontent.com/55713184/198899213-62804c39-f596-46f3-95c2-b554deda90fe.png)
+
+* This command prints all lines containing the string "situation" regardless of capitalization within all text files contained in the 911report directory. This allows the user to find lines related to the situation during 9/11 as well as the White House Situation Room across multiple files. Without using the backslash to escape the asterisk, the command will fail because the asterisk will be interpreted as a shell 
+
 
