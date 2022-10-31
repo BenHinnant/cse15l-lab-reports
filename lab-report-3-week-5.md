@@ -25,6 +25,7 @@
 ### Example 1: find /i "recommendation" "technical\government\Alcohol_Problems\*.txt" 
 
 ![image](https://user-images.githubusercontent.com/55713184/198897842-c545f3ec-c290-4616-a847-10923d50182e.png)
+
 ![image](https://user-images.githubusercontent.com/55713184/198897864-583e094e-9b83-46af-bfe0-30e50c6b7352.png)
 
 * This command prints all lines containing the string "recommendation" regardless of capitalization within all text files contained in the Alcohol_Problems directory. This might be used as a rough estimate to determine which text file has the most recommendations.
@@ -38,6 +39,7 @@
 ### Example 3: find /i "situation" "technical/911report/\*.txt"
 
 ![image](https://user-images.githubusercontent.com/55713184/198899199-9a6fe984-d5ea-4b32-82dc-10138ef67eed.png)
+
 ![image](https://user-images.githubusercontent.com/55713184/198899213-62804c39-f596-46f3-95c2-b554deda90fe.png)
 
 * This command prints all lines containing the string "situation" regardless of capitalization within all text files contained in the 911report directory. This allows the user to find lines related to the situation during 9/11 as well as the White House Situation Room across multiple files. 
