@@ -8,7 +8,7 @@
 vim d<Tab><Tab><Enter>
 17gg<Enter>
 o<Enter>
-<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'directory=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
+<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'd=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
 <Esc>
 :wq<Enter>
 ```
