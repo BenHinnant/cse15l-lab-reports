@@ -10,7 +10,7 @@ vim d<Tab><Enter>17ggo<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'dir=<Shift>'+f.to<S
 
 ### Explanation of commands
 ```
-vim d<Tab><Tab><Enter>
+vim d<Tab><Enter>
 ```
 ![image](https://user-images.githubusercontent.com/55713184/201541745-1783730a-8aee-471c-a8d7-60e14e48fb5f.png)
 ![image](https://user-images.githubusercontent.com/55713184/201540027-1004a5de-0dbd-485c-aa7d-571da1683294.png)
@@ -36,7 +36,7 @@ o
 ```
 ![image](https://user-images.githubusercontent.com/55713184/201541460-f3d0b0f3-4495-4a70-9fa0-44f3d79611d6.png)
 
-* This command adds a line to the proggram that will print out a stetement designating File f as a directory. It uses autocomplete to reduce keystrokes.
+* This command adds a line to the program that will print out a statement designating File f as a directory. It uses autocomplete to reduce keystrokes.
 
 ```
 :w<Enter>
