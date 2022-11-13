@@ -5,12 +5,7 @@
 ## Adding a new line to print before File[] paths = f.listfiles()
 
 ```
-vim d<Tab><Tab><Enter>
-17gg<Enter>
-o<Enter>
-<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'dir=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
-<Esc>
-:wq<Enter>
+vim d<Tab><Enter>17ggo<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'dir=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;<Esc>:wq<Enter>
 ```
 
 ### Explanation of commands
@@ -20,27 +15,35 @@ vim d<Tab><Tab><Enter>
 ![image](https://user-images.githubusercontent.com/55713184/201541745-1783730a-8aee-471c-a8d7-60e14e48fb5f.png)
 ![image](https://user-images.githubusercontent.com/55713184/201540027-1004a5de-0dbd-485c-aa7d-571da1683294.png)
 
-* This command opens DocSearchServer.java by autocompleting the file name using the tab key. If the class file exists as well, it may be necessary to press tab twice.
+* This command opens DocSearchServer.java by autocompleting the file name using the tab key.
 
 ```
-17gg<Enter>
+17gg
 ```
 ![image](https://user-images.githubusercontent.com/55713184/201540159-8f535247-d625-40c9-b2e6-e85d7b1e5bc0.png)
 
 * This command moves the cursor to the beginning of line 17.
 
 ```
-o<Enter>
+o
 ```
 ![image](https://user-images.githubusercontent.com/55713184/201540641-73a15c30-83b3-4e10-8c76-54a6d34e990b.png)
 
 * This command inserts a new line below the current line.
 
 ```
-<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'd=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
+<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'dir=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
 ```
 ![image](https://user-images.githubusercontent.com/55713184/201541460-f3d0b0f3-4495-4a70-9fa0-44f3d79611d6.png)
 
 * This command adds a line to the proggram that will print out a stetement designating File f as a directory. It uses autocomplete to reduce keystrokes.
+
+```
+:w<Enter>
+```
+
+![image](https://user-images.githubusercontent.com/55713184/201545746-552b380c-82a5-458f-9f35-262c4b1009e6.png)
+
+* This command saves the file.
 
 
