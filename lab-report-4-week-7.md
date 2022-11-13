@@ -8,7 +8,7 @@
 vim d<Tab><Tab><Enter>
 17gg<Enter>
 o<Enter>
-<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'd=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
+<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'dir=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
 <Esc>
 :wq<Enter>
 ```
@@ -17,6 +17,7 @@ o<Enter>
 ```
 vim d<Tab><Tab><Enter>
 ```
+![image](https://user-images.githubusercontent.com/55713184/201541745-1783730a-8aee-471c-a8d7-60e14e48fb5f.png)
 ![image](https://user-images.githubusercontent.com/55713184/201540027-1004a5de-0dbd-485c-aa7d-571da1683294.png)
 
 * This command opens DocSearchServer.java by autocompleting the file name using the tab key. If the class file exists as well, it may be necessary to press tab twice.
@@ -34,4 +35,12 @@ o<Enter>
 ![image](https://user-images.githubusercontent.com/55713184/201540641-73a15c30-83b3-4e10-8c76-54a6d34e990b.png)
 
 * This command inserts a new line below the current line.
+
+```
+<Shift>sy<Ctrl>n.out.pr<Ctrl>n<Shift>9'd=<Shift>'+f.to<Shift>S<Ctrl>n<Shift>900;
+```
+![image](https://user-images.githubusercontent.com/55713184/201541460-f3d0b0f3-4495-4a70-9fa0-44f3d79611d6.png)
+
+* This command adds a line to the proggram that will print out a stetement designating File f as a directory. It uses autocomplete to reduce keystrokes.
+
 
