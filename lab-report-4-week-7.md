@@ -46,4 +46,8 @@ o
 
 * This command saves the file.
 
+# Part 2
 
+* Making the edit in visual studio code: Took 3 minutes 34 seconds, mostly due to file transfer time
+* Starting already logged into a ssh session: Took 1 minute 18 seconds
+* I would prefer to use the second method because I don't have to deal with the long file transfer time. I also wouldn't need to ssh and scp back and forth between my computer and the remote server. If it is my first time moving the project's files to the remote computer, I would use the first method because I'll have to deal with the long file transfer time anyways. If unedited files are already on the remote, I will use the second method to save time from not needing to do ssh and scp.
