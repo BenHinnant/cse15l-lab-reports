@@ -1,6 +1,7 @@
 # lab-report-5-week-8.md
 
 # Grade.sh
+## Made partly in collaboration with Andrew Pan
 ```
 set -e
  
