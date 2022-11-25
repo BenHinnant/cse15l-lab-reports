@@ -1,4 +1,4 @@
-# lab-report-5-week-8
+# lab-report-5-week-8.md
 
 # Grade.sh
 ```
